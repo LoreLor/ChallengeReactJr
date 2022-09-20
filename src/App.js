@@ -6,6 +6,7 @@ import HelloWorld from "./components/HolaMundo";
 import ShowHide from "./components/ShowHide";
 import SumNumbers from "./components/SumNumbers";
 import UpdateParentState from "./components/UpdateParentState";
+import Counter from "./components/Counter"
 import "./styles.css";
 
 export default function App() {
@@ -24,6 +25,8 @@ export default function App() {
       <AddChildComponent />
       <br />
       <SumNumbers />
+      <br />
+      <Counter />
     </div>
   );
 }
